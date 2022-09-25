@@ -1,15 +1,17 @@
 import java.util.Scanner;
 
-// Main
+// Main class
 public class Main {
-    // main() class
+    // main() method
     public static void main(String[] args) {
         userTerminal();
 
     } // end main()class
 
-
-    // Method to start program continuos loop til exit
+    /*
+    / userTerminal() method
+    / Method to start program continuos loop til exit
+    */
     public static void userTerminal() {
         // using Scanner to get in put from user
         Scanner user = new Scanner(System.in);
@@ -33,10 +35,12 @@ public class Main {
         }
     }
 
+    // customer() method
     public static void customer() {
         System.out.println("You are customer");
     }
 
+    // employee() method
     public static void employee() {
         System.out.println("You are employee");
     }
